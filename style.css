@@ -1,0 +1,46 @@
+/* =====================
+   PART 1: DIFFERENT SPECIFICITY
+   ===================== */
+
+/* Element selector */
+p {
+    color: red;
+    background-color: yellow;
+}
+
+/* Class selector */
+.text {
+    color: blue;
+    background-color: lightblue;
+}
+
+/* ID selector */
+#special {
+    color: green;
+    background-color: lightgreen;
+}
+
+/* Another example */
+h2 {
+    color: orange;
+}
+
+.heading {
+    color: purple;
+}
+
+/* =====================
+   PART 2: SAME SPECIFICITY
+   ===================== */
+
+/* Class selector */
+.box {
+    color: brown;
+    background-color: pink;
+}
+
+/* Another class selector */
+.title {
+    color: black;
+    background-color: lightgray;
+}
